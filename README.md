@@ -1,2 +1,3 @@
-# snipit_issues
+# Snipit.ru
+
 Репозиторий для идей, ошибок, вопросов по проекту Snipit.ru
