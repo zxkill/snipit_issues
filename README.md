@@ -6,6 +6,17 @@
 
 ## История изменений
 
+### 1.7.0 — 31.07.2026
+
+- Добавлен Base64 Encoder / Decoder `/tools/base64/`: UTF-8, файлы, Base64URL, Data URL, предпросмотр и скачивание.
+- Добавлен URL Encoder / Decoder `/tools/url-encoder/`: percent encoding, режим полного URL и компонента, form-urlencoded и разбор query-параметров.
+- Добавлен UUID Generator / Validator `/tools/uuid-generator/`: пакетная генерация UUID v4 и UUID v7, настройка формата и проверка version/variant.
+- Добавлен Hash / Checksum Generator `/tools/hash-generator/`: SHA-1, SHA-256/384/512, HMAC, текстовые и файловые данные, Hex/Base64/Base64URL и сравнение checksum.
+- Добавлен Unix Timestamp Converter `/tools/timestamp-converter/`: секунды и миллисекунды, локальное время, UTC, ISO 8601 и обратное преобразование даты.
+- Добавлен Text Diff `/tools/text-diff/`: сравнение по строкам и словам, игнорирование регистра/пробелов, подсветка и unified diff.
+- Добавлен конвертер систем счисления `/tools/number-base/`: основания 2–36 и большие целые числа через BigInt без потери точности.
+- Каталог расширен до девяти инструментов, унифицированы карточки, категории, мобильная и десктопная сетки.
+
 ### 1.6.0 — 30.07.2026
 
 - Добавлен публичный инструмент JWT Decoder / Verifier по адресу `/tools/jwt-decoder/`.
